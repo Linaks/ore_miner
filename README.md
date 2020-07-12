@@ -1,4 +1,4 @@
-# ore_miner
+# ore_miner v0.1
 
 A new Flutter project.
 
