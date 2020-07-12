@@ -1,8 +1,10 @@
-# ore_miner v0.1
+# ore_miner
+> Von Gökay Inan
 
-Simulationsprogramm Balancing
+Aktuelle Version: 0.1
 
-## Aufgabe
+
+## Aufgabe (Simulationsprogramm Balancing)
 
 Schreiben Sie ein Simulationsprogramm
 zum Balancing eines beliebigen neuen Konzeptes in einer Programmiersprache ihrer Wahl.
