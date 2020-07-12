@@ -14,3 +14,17 @@ Balance verbessern konnten.
 Laden Sie dieses Simulationsprogramm bitte auf den Vorlesungsserver hoch, so dass es dort
 direkt verwendet werden kann.
 Geben Sie eine Anleitung dazu ab, wie man das Simulationsprogramm verwenden kann (auszufuhrender Befehl, etc.).
+
+
+## Spielinhalt
+
+Der Spielinhalt besteht aus Coins, Tools und Levels. Jedes Level besteht aus einem Minecraft Block bzw. Erz.
+Ziel ist es die Blöcke abzubauen. Durch das Abbauen gewinnt der Spieler Coins womit er effektivere Spitzhacken kaufen kann.
+Werkzeuge machen Schaden und bringen Coins. Je höher die Werte desto effizienter der Spielverlauf.
+
+
+## ToDo
+
+* Shop erweitern
+* Mehr Level
+* Feedback bei den Interaktionen (Animationen beim Klicken oder Kaufen eines Werkzeugs)
