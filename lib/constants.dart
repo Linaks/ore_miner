@@ -8,7 +8,10 @@ const kShopActiveTextStyle =
     TextStyle(fontSize: 24, color: Color(0xFFF8D405), fontFamily: 'Montserrat');
 const kShopInactiveTextStyle =
     TextStyle(fontSize: 24, color: Color(0xFF8D8E98), fontFamily: 'Montserrat');
-const kHealthTextStyle =
-    TextStyle(fontSize: 24, color: Color(0xFFF7A8A3), fontFamily: 'Montserrat');
+
+const kHealthBadColor = Colors.red;
+const kHealthNormalColor = Colors.orange;
+const kHealthGoodColor = Colors.green;
+
 const kDamageTextStyle =
-    TextStyle(fontSize: 24, color: Colors.red, fontFamily: 'Montserrat');
+    TextStyle(fontSize: 24, color: Colors.blue, fontFamily: 'Montserrat');

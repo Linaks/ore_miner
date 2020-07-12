@@ -11,6 +11,29 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   MinerBrain minerBrain = MinerBrain(coins: 0, level: 0);
 
+  Color getHealthColor() {
+    switch (minerBrain.getHealthStatus()) {
+      case HealthStatus.bad:
+        {
+          return kHealthBadColor;
+        }
+        break;
+
+      case HealthStatus.normal:
+        {
+          return kHealthNormalColor;
+        }
+        break;
+
+      case HealthStatus.good:
+        {
+          return kHealthGoodColor;
+        }
+        break;
+    }
+    return Colors.white;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -97,7 +120,10 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                FlatButton(
+                RawMaterialButton(
+                    hoverColor: Color(0xFF303030),
+                    splashColor: Color(0xFF303030),
+                    highlightColor: Color(0xFF303030),
                     onPressed: () {
                       setState(() {
                         minerBrain.click();
@@ -110,9 +136,27 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 150,
                     )),
                 SizedBox(width: 32),
-                Text(
-                  minerBrain.getOreHealth() + " Health",
-                  style: kHealthTextStyle,
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SizedBox(
+                      height: 24,
+                      width: 200,
+                      child: LinearProgressIndicator(
+                        value: minerBrain.getOreHealth().toDouble() /
+                            minerBrain.getOreStartHealth().toDouble(),
+                        backgroundColor: Colors.grey[700],
+                        valueColor:
+                            AlwaysStoppedAnimation<Color>(getHealthColor()),
+                      ),
+                    ),
+                    SizedBox(height: 16),
+                    Text(
+                        "+" +
+                            minerBrain.ores[minerBrain.level].drop.toString() +
+                            " Coins",
+                        style: kShopActiveTextStyle),
+                  ],
                 )
               ],
             ),
