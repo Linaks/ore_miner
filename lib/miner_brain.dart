@@ -17,7 +17,8 @@ class MinerBrain {
     Ore(oreImageName: "gold.png", health: 15000),
     Ore(oreImageName: "redstone.png", health: 25000),
     Ore(oreImageName: "diamond.png", health: 100000),
-    Ore(oreImageName: "emerald.png", health: 1000000)
+    Ore(oreImageName: "emerald.png", health: 350000),
+    Ore(oreImageName: "restart.png", health: 0)
   ];
 
   List<Tool> shop = [
@@ -59,12 +60,31 @@ class MinerBrain {
         isBought: false)
   ];
 
+  void restart() {
+    level = 0;
+    coins = 0;
+    myTool = Tool(
+        toolImage: "hand.png", price: 0, power: 1, drop: 1, isBought: true);
+  }
+
+  bool gameEnded() {
+    return level == 8 ? true : false;
+  }
+
   int getNextLevel() {
-    return level + 1;
+    if (!gameEnded()) {
+      return level + 1;
+    } else {
+      return 0;
+    }
   }
 
   void startNextLevel() {
-    level++;
+    if (!gameEnded()) {
+      level++;
+    } else {
+      restart();
+    }
   }
 
   void click() {
