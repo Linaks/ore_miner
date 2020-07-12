@@ -1,16 +1,14 @@
 # ore_miner v0.1
 
-A new Flutter project.
+Simulationsprogramm Balancing
 
-## Getting Started
+## Aufgabe
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Schreiben Sie ein Simulationsprogramm
+zum Balancing eines beliebigen neuen Konzeptes in einer Programmiersprache ihrer Wahl.
+Es ist dabei unerheblich, ob Sie auch vorhaben einen Mod zu diesem Konzept umzusetzen.
+Testen Sie ein paar Balancingparameter aus und beschreiben Sie, was sie dadurch an der
+Balance verbessern konnten.
+Laden Sie dieses Simulationsprogramm bitte auf den Vorlesungsserver hoch, so dass es dort
+direkt verwendet werden kann.
+Geben Sie eine Anleitung dazu ab, wie man das Simulationsprogramm verwenden kann (auszufuhrender Befehl, etc.).
