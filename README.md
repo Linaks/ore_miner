@@ -16,7 +16,7 @@ direkt verwendet werden kann.
 Geben Sie eine Anleitung dazu ab, wie man das Simulationsprogramm verwenden kann (auszufuhrender Befehl, etc.).
 
 
-## Spielinhalt
+## Anleitung
 
 Der Spielinhalt besteht aus Coins, Tools und Levels. Jedes Level besteht aus einem Minecraft Block bzw. Erz.
 Ziel ist es die Blöcke abzubauen. Durch das Abbauen gewinnt der Spieler Coins womit er effektivere Spitzhacken kaufen kann.
@@ -28,3 +28,5 @@ Werkzeuge machen Schaden und bringen Coins. Je höher die Werte desto effiziente
 * Shop erweitern
 * Mehr Level
 * Feedback bei den Interaktionen (Animationen beim Klicken oder Kaufen eines Werkzeugs)
+
+##[PLAY!](https://linaks.github.io/ore_miner/build/web/)
