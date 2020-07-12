@@ -9,7 +9,7 @@ const RESOURCES = {
 "assets/fonts/Montserrat_600.ttf": "bbcd5bbb5993808a92df01a5dfef77cd",
 "assets/fonts/Montserrat_900italic.ttf": "59a08c76185220c732ed4926d32a6706",
 "assets/images/coal.png": "575133acd99568fa09d1b7c9ae346063",
-"assets/images/coin.png": "5804e35d44e4d7634901842891a6b53f",
+"assets/images/coin.png": "b281f4ccd3c2d107479094da18829924",
 "assets/images/diamond.png": "839895806aa51402a8fff47e4f9d4f60",
 "assets/images/diamond_pickaxe.png": "8a2c80122ff8a56b8ea4b4e75d9cd982",
 "assets/images/emerald.png": "2c065ea86bb00c7dd6e2e4f261d15c87",
@@ -32,7 +32,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "736be9b760334a2e0d45cea2b63a9959",
 "/": "736be9b760334a2e0d45cea2b63a9959",
-"main.dart.js": "63df89e9be715e545e5f7876f508182d",
+"main.dart.js": "135bf564ff092066cd3b93f375c4fa78",
 "manifest.json": "d38deda368e948b9ffcbfaa512bc07f5"
 };
 

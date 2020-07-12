@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           style: kCoinTextStyle,
                         ),
                         SizedBox(
-                          width: 16,
+                          width: 8,
                         ),
                         Image.asset(
                           "images/coin.png",
@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           height: 48,
                           width: 48,
                         ),
-                        SizedBox(width: 16),
+                        SizedBox(width: 8),
                         Column(
                           children: [
                             Text(
@@ -78,9 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Row(
                       children: [
                         Text("Next Level", style: kLabelTextStyle),
-                        SizedBox(
-                          width: 16,
-                        ),
+                        SizedBox(width: 16),
                         Image.asset(
                           "images/" +
                               minerBrain
@@ -114,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(width: 32),
                 Text(
                   minerBrain.getOreHealth() + " Health",
-                  style: kShopInactiveTextStyle,
+                  style: kHealthTextStyle,
                 )
               ],
             ),
