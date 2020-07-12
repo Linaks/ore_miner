@@ -12,69 +12,69 @@ class MinerBrain {
       Tool(toolImage: "hand.png", price: 0, power: 1, drop: 1, isBought: true);
 
   List<Ore> ores = [
-    Ore(oreImageName: "stone.png", drop: 1, startHealth: 50, health: 50),
-    Ore(oreImageName: "coal.png", drop: 3, startHealth: 200, health: 200),
-    Ore(oreImageName: "iron.png", drop: 6, startHealth: 1000, health: 1000),
+    Ore(oreImageName: "stone.png", drop: 1, startHealth: 35, health: 35),
+    Ore(oreImageName: "coal.png", drop: 3, startHealth: 150, health: 150),
+    Ore(oreImageName: "iron.png", drop: 6, startHealth: 750, health: 750),
     Ore(
         oreImageName: "lapis_lazuli.png",
         drop: 15,
-        startHealth: 5000,
-        health: 5000),
-    Ore(oreImageName: "gold.png", drop: 16, startHealth: 15000, health: 15000),
+        startHealth: 2500,
+        health: 2500),
+    Ore(oreImageName: "gold.png", drop: 16, startHealth: 8000, health: 8000),
     Ore(
         oreImageName: "redstone.png",
         drop: 40,
-        startHealth: 25000,
-        health: 25000),
+        startHealth: 14500,
+        health: 14500),
     Ore(
         oreImageName: "diamond.png",
         drop: 75,
-        startHealth: 100000,
-        health: 100000),
+        startHealth: 35000,
+        health: 35000),
     Ore(
         oreImageName: "emerald.png",
         drop: 150,
-        startHealth: 350000,
-        health: 350000),
-    Ore(oreImageName: "restart.png", drop: 0, startHealth: 0, health: 0)
+        startHealth: 90000,
+        health: 90000),
+    Ore(oreImageName: "restart.png", drop: 0, startHealth: 1, health: 1)
   ];
 
   List<Tool> shop = [
     Tool(
         toolImage: "wooden_pickaxe.png",
         price: 50,
-        power: 2,
-        drop: 2,
+        power: 8,
+        drop: 5,
         isBought: false),
     Tool(
         toolImage: "stone_pickaxe.png",
         price: 400,
-        power: 6,
-        drop: 4,
+        power: 20,
+        drop: 10,
         isBought: false),
     Tool(
         toolImage: "iron_pickaxe.png",
         price: 2000,
-        power: 10,
-        drop: 20,
+        power: 80,
+        drop: 50,
         isBought: false),
     Tool(
         toolImage: "golden_pickaxe.png",
         price: 8000,
-        power: 55,
-        drop: 80,
-        isBought: false),
-    Tool(
-        toolImage: "diamond_pickaxe.png",
-        price: 20000,
-        power: 120,
+        power: 200,
         drop: 200,
         isBought: false),
     Tool(
+        toolImage: "diamond_pickaxe.png",
+        price: 15000,
+        power: 600,
+        drop: 600,
+        isBought: false),
+    Tool(
         toolImage: "netherite_pickaxe.png",
-        price: 100000,
-        power: 250,
-        drop: 320,
+        price: 60000,
+        power: 1800,
+        drop: 1000,
         isBought: false)
   ];
 
@@ -93,6 +93,12 @@ class MinerBrain {
     coins = 0;
     myTool = Tool(
         toolImage: "hand.png", price: 0, power: 1, drop: 1, isBought: true);
+    shop.forEach((element) {
+      element.isBought = false;
+    });
+    ores.forEach((element) {
+      element.health = element.startHealth;
+    });
   }
 
   bool gameEnded() {

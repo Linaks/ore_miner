@@ -22,7 +22,16 @@ class ShopItem extends StatelessWidget {
               padding: EdgeInsets.all(24),
               margin: EdgeInsets.fromLTRB(16, 32, 16, 16),
               decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(16)),
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.32),
+                      spreadRadius: 4,
+                      blurRadius: 32,
+                      offset: Offset(0, 16),
+                    )
+                  ]),
               child: Image.asset(
                 "images/" + _getToolImage(),
                 height: 48,
