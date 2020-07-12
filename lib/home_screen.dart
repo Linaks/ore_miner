@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           width: 16,
                         ),
                         Image.asset(
-                          "coin.png",
+                          "images/coin.png",
                           height: 48,
                           width: 48,
                         )
@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Text("Tool", style: kLabelTextStyle),
                         SizedBox(width: 16),
                         Image.asset(
-                          minerBrain.myTool.toolImage,
+                          "images/" + minerBrain.myTool.toolImage,
                           height: 48,
                           width: 48,
                         ),
@@ -82,8 +82,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           width: 16,
                         ),
                         Image.asset(
-                          minerBrain
-                              .ores[minerBrain.getNextLevel()].oreImageName,
+                          "images/" +
+                              minerBrain
+                                  .ores[minerBrain.getNextLevel()].oreImageName,
                           height: 48,
                           width: 48,
                         )
@@ -105,7 +106,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       });
                     },
                     child: Image.asset(
-                      minerBrain.ores[minerBrain.level].oreImageName,
+                      "images/" +
+                          minerBrain.ores[minerBrain.level].oreImageName,
                       height: 150,
                       width: 150,
                     )),

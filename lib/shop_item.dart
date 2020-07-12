@@ -24,7 +24,7 @@ class ShopItem extends StatelessWidget {
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(16)),
               child: Image.asset(
-                _getToolImage(),
+                "images/" + _getToolImage(),
                 height: 48,
                 width: 48,
               )),

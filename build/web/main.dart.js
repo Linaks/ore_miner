@@ -36943,10 +36943,10 @@ return!1}return!0}}
 V.n2.prototype={
 aP:function(){return new V.za(new Y.Hk(0,0,new L.dZ("hand.png",0,1,1,!0),H.b([new X.dj("stone.png",50),new X.dj("coal.png",200),new X.dj("iron.png",1000),new X.dj("lapis_lazuli.png",5000),new X.dj("gold.png",15e3),new X.dj("redstone.png",25e3),new X.dj("diamond.png",1e5),new X.dj("emerald.png",35e4),new X.dj("restart.png",0)],u.sr),H.b([new L.dZ("wooden_pickaxe.png",50,2,2,!1),new L.dZ("stone_pickaxe.png",400,5,4,!1),new L.dZ("iron_pickaxe.png",2000,20,20,!1),new L.dZ("golden_pickaxe.png",8000,50,50,!1),new L.dZ("diamond_pickaxe.png",2e4,100,200,!1),new L.dZ("netherite_pickaxe.png",1e5,800,800,!1)],u.k2)),C.p)}}
 V.za.prototype={
-M:function(a){var t,s,r,q,p,o,n=this,m=null,l=L.fi("Ore Miners".toUpperCase(),A.oW(m,m,m,m,m,m,m,m,"Montserrat",m,m,50,C.ta,m,m,m,!0,m,m,m,m,m,m)),k=n.d,j=u.t,i=T.or(H.b([L.fi(C.e.h(k.a),C.y9),new T.cN(16,m,m,m),U.ub("coin.png",48,48)],j),C.fC,m),h=L.fi("Tool",C.m6),g=k.c,f=k.d
-g=M.rW(m,T.rT(H.b([new T.cN(m,64,m,m),l,new T.cN(m,64,m,m),T.or(H.b([i,T.or(H.b([h,new T.cN(16,m,m,m),U.ub(g.a,48,48),new T.cN(16,m,m,m),T.rT(H.b([L.fi("+"+C.e.h(g.c)+" Damage",C.xt),L.fi("+"+C.e.h(k.c.d)+" Coins",C.py)],j))],j),C.fC,m),T.or(H.b([L.fi("Next Level",C.m6),new T.cN(16,m,m,m),U.ub(f[k.xV()].a,48,48)],j),C.fC,m)],j),C.o3,m)],j)),m,m,m,m,m,m)
+M:function(a){var t,s,r,q,p,o,n=this,m=null,l=L.fi("Ore Miners".toUpperCase(),A.oW(m,m,m,m,m,m,m,m,"Montserrat",m,m,50,C.ta,m,m,m,!0,m,m,m,m,m,m)),k=n.d,j=u.t,i=T.or(H.b([L.fi(C.e.h(k.a),C.y9),new T.cN(16,m,m,m),U.ub("images/coin.png",48,48)],j),C.fC,m),h=L.fi("Tool",C.m6),g=k.c,f=k.d
+g=M.rW(m,T.rT(H.b([new T.cN(m,64,m,m),l,new T.cN(m,64,m,m),T.or(H.b([i,T.or(H.b([h,new T.cN(16,m,m,m),U.ub("images/"+g.a,48,48),new T.cN(16,m,m,m),T.rT(H.b([L.fi("+"+C.e.h(g.c)+" Damage",C.xt),L.fi("+"+C.e.h(k.c.d)+" Coins",C.py)],j))],j),C.fC,m),T.or(H.b([L.fi("Next Level",C.m6),new T.cN(16,m,m,m),U.ub("images/"+f[k.xV()].a,48,48)],j),C.fC,m)],j),C.o3,m)],j)),m,m,m,m,m,m)
 f=f[k.b]
-f=T.Tc(T.or(H.b([new N.tM(new V.MC(n),m,m,m,m,m,m,m,m,m,m,m,m,m,U.ub(f.a,150,150),m,m,m,C.aM,m,!1,m,m),new T.cN(32,m,m,m),L.fi(C.e.h(f.b)+" Health",C.px)],j),C.lb,m))
+f=T.Tc(T.or(H.b([new N.tM(new V.MC(n),m,m,m,m,m,m,m,m,m,m,m,m,m,U.ub("images/"+f.a,150,150),m,m,m,C.aM,m,!1,m,m),new T.cN(32,m,m,m),L.fi(C.e.h(f.b)+" Health",C.px)],j),C.lb,m))
 h=L.fi("Shop",C.m6)
 i=k.e
 l="+"+C.e.h(i[0].c)+" Damage\n+"+C.e.h(i[0].d)+" Coins"
@@ -37052,7 +37052,7 @@ N.fe.prototype={
 M:function(a){var t,s=null,r=this.d,q=r?1:0.16,p=new P.aW(16,16)
 p=S.mg(s,new K.bg(p,p,p,p),s,C.j,s,s,C.S)
 t=this.c
-p=M.rW(s,U.ub(t.a,48,48),s,s,p,new V.aO(16,32,16,16),new V.aO(24,24,24,24),s)
+p=M.rW(s,U.ub("images/"+t.a,48,48),s,s,p,new V.aO(16,32,16,16),new V.aO(24,24,24,24),s)
 t=C.e.h(t.b)
 return new T.nU(q,!1,T.rT(H.b([p,L.fi(t,r?C.py:C.px)],u.t)),s)}}
 L.dZ.prototype={}
