@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 SizedBox(height: 64),
                 Text(
-                  "Ore Miners".toUpperCase(),
+                  "Ore Miner".toUpperCase(),
                   style: TextStyle(
                       fontSize: 50,
                       fontFamily: 'Montserrat',
