@@ -16,8 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          Expanded(
-            flex: 1,
+          Container(
             child: Column(
               children: [
                 SizedBox(height: 64),
@@ -103,7 +102,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     onPressed: () {
                       setState(() {
                         minerBrain.click();
-                        print(minerBrain.coins);
                       });
                     },
                     child: Image.asset(
