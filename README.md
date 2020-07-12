@@ -30,4 +30,4 @@ Werkzeuge machen Schaden und bringen Coins. Je höher die Werte desto effiziente
 * Feedback bei den Interaktionen (Animationen beim Klicken oder Kaufen eines Werkzeugs)
 * Arbeiter hinzufügen -> Spieler kann Arbeiter kaufen, die für ihn die Blöcke abbauen (AFK Clicker)
 
-<h1><a href="https://linaks.github.io/ore_miner/build/web/">Jetzt spielen</a></h1>
+<h2><a href="https://linaks.github.io/ore_miner/build/web/">Jetzt spielen</a></h2>
