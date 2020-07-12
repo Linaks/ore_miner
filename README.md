@@ -23,10 +23,11 @@ Ziel ist es die Blöcke abzubauen. Durch das Abbauen gewinnt der Spieler Coins w
 Werkzeuge machen Schaden und bringen Coins. Je höher die Werte desto effizienter der Spielverlauf.
 
 
-## ToDo
+## Mögliche Features
 
 * Shop erweitern
 * Mehr Level
 * Feedback bei den Interaktionen (Animationen beim Klicken oder Kaufen eines Werkzeugs)
+* Arbeiter hinzufügen -> Spieler kann Arbeiter kaufen, die für ihn die Blöcke abbauen (AFK Clicker)
 
-##[PLAY!](https://linaks.github.io/ore_miner/build/web/)
+[Jetzt spielen](https://linaks.github.io/ore_miner/build/web/)
