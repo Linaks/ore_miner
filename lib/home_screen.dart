@@ -15,19 +15,19 @@ class _HomeScreenState extends State<HomeScreen> {
     switch (minerBrain.getHealthStatus()) {
       case HealthStatus.bad:
         {
-          return kHealthBadColor;
+          return Colors.red;
         }
         break;
 
       case HealthStatus.normal:
         {
-          return kHealthNormalColor;
+          return Colors.orange;
         }
         break;
 
       case HealthStatus.good:
         {
-          return kHealthGoodColor;
+          return Colors.green;
         }
         break;
     }
