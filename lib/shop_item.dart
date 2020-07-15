@@ -8,10 +8,6 @@ class ShopItem extends StatelessWidget {
   final Tool tool;
   final bool available;
 
-  String _getToolImage() {
-    return tool.toolImage;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Opacity(
@@ -33,7 +29,7 @@ class ShopItem extends StatelessWidget {
                     )
                   ]),
               child: Image.asset(
-                "images/" + _getToolImage(),
+                "images/" + tool.toolImage,
                 height: 48,
                 width: 48,
               )),
